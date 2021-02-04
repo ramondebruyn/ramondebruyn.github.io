@@ -9,7 +9,25 @@ License: Free to use for personal and commercial, but you need to place back lin
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 @import url(https://font.googleapis.com/css?family=Lora|Open+Sans);
 
+@font-face {
+	font-family: 'Open-Sans';
+	src: url("/font/fonts/OpenSans-Regular.ttf");
+}
 
+@font-face {
+	font-family: 'Open-Sans-Light';
+	src: url("/font/fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+	font-family: 'PT-Sans-Narrow';
+	src: url("/font/fonts/PT_Sans-Narrow-Web-Regular.ttf");
+}
+
+@font-face {
+	font-family: 'PT-Sans-Narrow';
+	src: url("/font/fonts/PT_Sans-Narrow-Web-Bold.ttf");
+}
 
 /* CUSTOM START */
 
@@ -55,7 +73,7 @@ License: Free to use for personal and commercial, but you need to place back lin
 
 .call-to-action-app h2 {
 	color: #222222;
-	font-family: "PT Sans Narrow", sans-serif;
+	font-family: "PT Sans Narrow", "PT-Sans-Narrow";
 	margin-bottom: .5rem;
 	font-weight: 100 !important;
 	font-size: 40px !important;
@@ -70,7 +88,7 @@ License: Free to use for personal and commercial, but you need to place back lin
 .call-to-action-app p {
 	margin-bottom: 60px !important;
 	/* font-family: "Open Sans", sans-serif; */
-	font-family: "PT Sans Narrow", sans-serif;
+	font-family: "PT Sans Narrow", "PT-Sans-Narrow";
 	color: #fff;
 	font-size: 16px;
 	font-weight: bold;
@@ -158,12 +176,12 @@ License: Free to use for personal and commercial, but you need to place back lin
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', 'Open-Sans', sans-serif;
 }
 
 body {
 	height: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', 'Open-Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1.7;
 	/* color: #166E00; */
@@ -198,7 +216,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'PT Sans Narrow', 'PT-Sans-Narrow', sans-serif;
 }
 
 .fitImage {
@@ -405,7 +423,7 @@ a:hover {
 	padding: 15px 0;
 	background-color: #343a40 !important;
 	color: #6c757d !important;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans','Open-Sans', sans-serif;
 }
 
 #top {
@@ -1377,7 +1395,8 @@ hr {
 
 body {
 	margin: 0;
-	font-family: Arial, sans-serif;
+	/* font-family: Arial, sans-serif; */
+	font-family: 'Open Sans', 'Open-Sans', sans-serif;
 }
 
 #navigation {
@@ -1678,7 +1697,7 @@ footer {
 	}
 
 	.call-to-action-app h2 {
-		font-family: 'PT Sans Narrow' !important;
+		font-family: 'PT Sans Narrow', 'PT-Sans-Narrow' !important;
 	}
 
 	#work.page-section.page {
